@@ -10,7 +10,7 @@ const errorHandler = require("./middleware/errorHandler");
 
 //  loading environmental variables
 
-dotenv.config({ path: "src/config/config.env"});
+dotenv.config({ path: "./config/config.env"});
 
 
 // mongoose set up
